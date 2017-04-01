@@ -1,0 +1,346 @@
+/*C4*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C5*/SET SCHEMA PUBLIC
+DELETE FROM TTASKS WHERE ID=10537
+DELETE FROM TTASKS WHERE ID=10538
+DELETE FROM TTASKS WHERE ID=10539
+DELETE FROM TTASKS WHERE ID=10540
+DELETE FROM TTASKS WHERE ID=10541
+DELETE FROM TTASKS WHERE ID=10542
+DELETE FROM TTASKS WHERE ID=10544
+DELETE FROM TTASKS WHERE ID=10545
+DELETE FROM TTASKS WHERE ID=10547
+DELETE FROM TTASKS WHERE ID=10548
+DELETE FROM TTASKS WHERE ID=10549
+DELETE FROM TTASKS WHERE ID=10550
+DELETE FROM TTASKS WHERE ID=10551
+DELETE FROM TTASKS WHERE ID=10552
+DELETE FROM TTASKS WHERE ID=10553
+DELETE FROM TTASKS WHERE ID=10554
+DELETE FROM TTASKS WHERE ID=10555
+DELETE FROM TTASKS WHERE ID=10556
+DELETE FROM TTASKS WHERE ID=10557
+DELETE FROM TTASKS WHERE ID=10558
+DELETE FROM TTASKS WHERE ID=10559
+DELETE FROM TTASKS WHERE ID=10560
+DELETE FROM TTASKS WHERE ID=10561
+DELETE FROM TTASKS WHERE ID=10562
+DELETE FROM TTASKS WHERE ID=10563
+DELETE FROM TTASKS WHERE ID=10564
+DELETE FROM TTASKS WHERE ID=10565
+DELETE FROM TTASKS WHERE ID=10596
+DELETE FROM TTASKS WHERE ID=10597
+DELETE FROM TTASKS WHERE ID=10598
+DELETE FROM TTASKS WHERE ID=10536
+DELETE FROM TTASKS WHERE ID=10546
+DELETE FROM TTASKS WHERE ID=10543
+DELETE FROM TCATEGORIES WHERE ID=1103
+DELETE FROM TCATEGORIES WHERE ID=1104
+DELETE FROM TCATEGORIES WHERE ID=1105
+DELETE FROM TUSERS WHERE ID=529
+COMMIT
+DELETE FROM TTASKS WHERE ID=10566
+DELETE FROM TTASKS WHERE ID=10567
+DELETE FROM TTASKS WHERE ID=10568
+DELETE FROM TTASKS WHERE ID=10569
+DELETE FROM TTASKS WHERE ID=10570
+DELETE FROM TTASKS WHERE ID=10571
+DELETE FROM TTASKS WHERE ID=10572
+DELETE FROM TTASKS WHERE ID=10573
+DELETE FROM TTASKS WHERE ID=10574
+DELETE FROM TTASKS WHERE ID=10575
+DELETE FROM TTASKS WHERE ID=10576
+DELETE FROM TTASKS WHERE ID=10577
+DELETE FROM TTASKS WHERE ID=10578
+DELETE FROM TTASKS WHERE ID=10579
+DELETE FROM TTASKS WHERE ID=10580
+DELETE FROM TTASKS WHERE ID=10581
+DELETE FROM TTASKS WHERE ID=10582
+DELETE FROM TTASKS WHERE ID=10583
+DELETE FROM TTASKS WHERE ID=10584
+DELETE FROM TTASKS WHERE ID=10585
+DELETE FROM TTASKS WHERE ID=10586
+DELETE FROM TTASKS WHERE ID=10587
+DELETE FROM TTASKS WHERE ID=10588
+DELETE FROM TTASKS WHERE ID=10589
+DELETE FROM TTASKS WHERE ID=10590
+DELETE FROM TTASKS WHERE ID=10591
+DELETE FROM TTASKS WHERE ID=10592
+DELETE FROM TTASKS WHERE ID=10593
+DELETE FROM TTASKS WHERE ID=10594
+DELETE FROM TTASKS WHERE ID=10595
+DELETE FROM TCATEGORIES WHERE ID=1106
+DELETE FROM TCATEGORIES WHERE ID=1107
+DELETE FROM TCATEGORIES WHERE ID=1108
+DELETE FROM TUSERS WHERE ID=530
+COMMIT
+DELETE FROM TUSERS WHERE ID=531
+COMMIT
+INSERT INTO TUSERS VALUES(532,'usuario1@correo.com',FALSE,'usuario1','usuario1','ENABLED')
+COMMIT
+INSERT INTO TUSERS VALUES(533,'usuario2@correo.com',FALSE,'usuario2','usuario2','ENABLED')
+COMMIT
+INSERT INTO TUSERS VALUES(534,'usuario3@correo.com',FALSE,'usuario3','usuario3','ENABLED')
+COMMIT
+INSERT INTO TCATEGORIES VALUES(1109,'categor\u00eda1',532)
+COMMIT
+INSERT INTO TCATEGORIES VALUES(1110,'categor\u00eda2',532)
+COMMIT
+INSERT INTO TCATEGORIES VALUES(1111,'categor\u00eda3',532)
+COMMIT
+INSERT INTO TTASKS VALUES(10599,'Tarea 1 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 1',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10600,'Tarea 2 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 2',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10601,'Tarea 3 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 3',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10602,'Tarea 4 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 4',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10603,'Tarea 5 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 5',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10604,'Tarea 6 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 6',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10605,'Tarea 7 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 7',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10606,'Tarea 8 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 8',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10607,'Tarea 9 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 9',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10608,'Tarea 10 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 10',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10609,'Tarea 11 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 11',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10610,'Tarea 12 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 12',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10611,'Tarea 13 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 13',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10612,'Tarea 14 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 14',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10613,'Tarea 15 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 15',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10614,'Tarea 16 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 16',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10615,'Tarea 17 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 17',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10616,'Tarea 18 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 18',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10617,'Tarea 19 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 19',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10618,'Tarea 20 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 20',NULL,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10619,'Tarea 21  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda1','2017-03-26',NULL,'2017-03-22','Tarea 21',1109,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10620,'Tarea 22  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda1','2017-03-26',NULL,'2017-03-22','Tarea 22',1109,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10621,'Tarea 23  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda1','2017-03-26',NULL,'2017-03-22','Tarea 23',1109,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10622,'Tarea 24  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda2','2017-03-26',NULL,'2017-03-22','Tarea 24',1110,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10623,'Tarea 25  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda2','2017-03-26',NULL,'2017-03-22','Tarea 25',1110,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10624,'Tarea 26  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda2','2017-03-26',NULL,'2017-03-22','Tarea 26',1110,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10625,'Tarea 27  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda3','2017-03-26',NULL,'2017-03-22','Tarea 27',1111,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10626,'Tarea 28  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda3','2017-03-26',NULL,'2017-03-22','Tarea 28',1111,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10627,'Tarea 29  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda3','2017-03-26',NULL,'2017-03-22','Tarea 29',1111,532)
+COMMIT
+INSERT INTO TTASKS VALUES(10628,'Tarea 30  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda3','2017-03-26',NULL,'2017-03-22','Tarea 30',1111,532)
+COMMIT
+INSERT INTO TCATEGORIES VALUES(1112,'categor\u00eda1',533)
+COMMIT
+INSERT INTO TCATEGORIES VALUES(1113,'categor\u00eda2',533)
+COMMIT
+INSERT INTO TCATEGORIES VALUES(1114,'categor\u00eda3',533)
+COMMIT
+INSERT INTO TTASKS VALUES(10629,'Tarea 1 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 1',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10630,'Tarea 2 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 2',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10631,'Tarea 3 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 3',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10632,'Tarea 4 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 4',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10633,'Tarea 5 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 5',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10634,'Tarea 6 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 6',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10635,'Tarea 7 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 7',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10636,'Tarea 8 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 8',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10637,'Tarea 9 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 9',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10638,'Tarea 10 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 10',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10639,'Tarea 11 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 11',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10640,'Tarea 12 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 12',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10641,'Tarea 13 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 13',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10642,'Tarea 14 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 14',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10643,'Tarea 15 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 15',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10644,'Tarea 16 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 16',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10645,'Tarea 17 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 17',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10646,'Tarea 18 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 18',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10647,'Tarea 19 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 19',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10648,'Tarea 20 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 20',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10649,'Tarea 21  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda1','2017-03-26',NULL,'2017-03-22','Tarea 21',1112,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10650,'Tarea 22  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda1','2017-03-26',NULL,'2017-03-22','Tarea 22',1112,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10651,'Tarea 23  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda1','2017-03-26',NULL,'2017-03-22','Tarea 23',1112,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10652,'Tarea 24  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda2','2017-03-26',NULL,'2017-03-22','Tarea 24',1113,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10653,'Tarea 25  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda2','2017-03-26',NULL,'2017-03-22','Tarea 25',1113,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10654,'Tarea 26  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda2','2017-03-26',NULL,'2017-03-22','Tarea 26',1113,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10655,'Tarea 27  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda3','2017-03-26',NULL,'2017-03-22','Tarea 27',1114,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10656,'Tarea 28  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda3','2017-03-26',NULL,'2017-03-22','Tarea 28',1114,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10657,'Tarea 29  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda3','2017-03-26',NULL,'2017-03-22','Tarea 29',1114,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10658,'Tarea 30  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda3','2017-03-26',NULL,'2017-03-22','Tarea 30',1114,533)
+COMMIT
+INSERT INTO TCATEGORIES VALUES(1115,'categor\u00eda1',534)
+COMMIT
+INSERT INTO TCATEGORIES VALUES(1116,'categor\u00eda2',534)
+COMMIT
+INSERT INTO TCATEGORIES VALUES(1117,'categor\u00eda3',534)
+COMMIT
+INSERT INTO TTASKS VALUES(10659,'Tarea 1 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 1',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10660,'Tarea 2 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 2',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10661,'Tarea 3 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 3',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10662,'Tarea 4 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 4',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10663,'Tarea 5 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 5',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10664,'Tarea 6 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 6',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10665,'Tarea 7 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 7',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10666,'Tarea 8 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 8',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10667,'Tarea 9 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 9',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10668,'Tarea 10 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26',NULL,'2017-04-01','Tarea 10',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10669,'Tarea 11 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 11',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10670,'Tarea 12 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 12',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10671,'Tarea 13 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 13',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10672,'Tarea 14 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 14',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10673,'Tarea 15 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 15',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10674,'Tarea 16 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 16',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10675,'Tarea 17 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 17',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10676,'Tarea 18 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 18',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10677,'Tarea 19 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 19',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10678,'Tarea 20 para el d\u00eda que se ejecuta la tarea','2017-03-26',NULL,'2017-03-26','Tarea 20',NULL,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10679,'Tarea 21  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda1','2017-03-26',NULL,'2017-03-22','Tarea 21',1115,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10680,'Tarea 22  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda1','2017-03-26',NULL,'2017-03-22','Tarea 22',1115,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10681,'Tarea 23  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda1','2017-03-26',NULL,'2017-03-22','Tarea 23',1115,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10682,'Tarea 24  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda2','2017-03-26',NULL,'2017-03-22','Tarea 24',1116,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10683,'Tarea 25  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda2','2017-03-26',NULL,'2017-03-22','Tarea 25',1116,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10684,'Tarea 26  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda2','2017-03-26',NULL,'2017-03-22','Tarea 26',1116,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10685,'Tarea 27  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda3','2017-03-26',NULL,'2017-03-22','Tarea 27',1117,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10686,'Tarea 28  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda3','2017-03-26',NULL,'2017-03-22','Tarea 28',1117,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10687,'Tarea 29  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda3','2017-03-26',NULL,'2017-03-22','Tarea 29',1117,534)
+COMMIT
+INSERT INTO TTASKS VALUES(10688,'Tarea 30  retrasada respecto al d\u00eda que ejecute la prueba y perteneciente a la categor\u00eda: categor\u00eda3','2017-03-26',NULL,'2017-03-22','Tarea 30',1117,534)
+COMMIT
+DELETE FROM TUSERS WHERE ID=532
+INSERT INTO TUSERS VALUES(532,'usuario1@correo.com',FALSE,'usuario1','usuario1','DISABLED')
+COMMIT
+DELETE FROM TUSERS WHERE ID=532
+INSERT INTO TUSERS VALUES(532,'usuario1@correo.com',FALSE,'usuario1','usuario1','ENABLED')
+COMMIT
+DELETE FROM TUSERS WHERE ID=532
+INSERT INTO TUSERS VALUES(532,'usuario1@correo.com',FALSE,'usuario1','usuario1','DISABLED')
+COMMIT
+DELETE FROM TUSERS WHERE ID=532
+INSERT INTO TUSERS VALUES(532,'usuario1@correo.com',FALSE,'usuario1','usuario1','ENABLED')
+COMMIT
+DELETE FROM TTASKS WHERE ID=10599
+DELETE FROM TTASKS WHERE ID=10600
+DELETE FROM TTASKS WHERE ID=10601
+DELETE FROM TTASKS WHERE ID=10602
+DELETE FROM TTASKS WHERE ID=10603
+DELETE FROM TTASKS WHERE ID=10604
+DELETE FROM TTASKS WHERE ID=10605
+DELETE FROM TTASKS WHERE ID=10606
+DELETE FROM TTASKS WHERE ID=10607
+DELETE FROM TTASKS WHERE ID=10608
+DELETE FROM TTASKS WHERE ID=10609
+DELETE FROM TTASKS WHERE ID=10610
+DELETE FROM TTASKS WHERE ID=10611
+DELETE FROM TTASKS WHERE ID=10612
+DELETE FROM TTASKS WHERE ID=10613
+DELETE FROM TTASKS WHERE ID=10614
+DELETE FROM TTASKS WHERE ID=10615
+DELETE FROM TTASKS WHERE ID=10616
+DELETE FROM TTASKS WHERE ID=10617
+DELETE FROM TTASKS WHERE ID=10618
+DELETE FROM TTASKS WHERE ID=10619
+DELETE FROM TTASKS WHERE ID=10620
+DELETE FROM TTASKS WHERE ID=10621
+DELETE FROM TTASKS WHERE ID=10622
+DELETE FROM TTASKS WHERE ID=10623
+DELETE FROM TTASKS WHERE ID=10624
+DELETE FROM TTASKS WHERE ID=10625
+DELETE FROM TTASKS WHERE ID=10626
+DELETE FROM TTASKS WHERE ID=10627
+DELETE FROM TTASKS WHERE ID=10628
+DELETE FROM TCATEGORIES WHERE ID=1109
+DELETE FROM TCATEGORIES WHERE ID=1110
+DELETE FROM TCATEGORIES WHERE ID=1111
+DELETE FROM TUSERS WHERE ID=532
+COMMIT
+INSERT INTO TUSERS VALUES(535,'usuario1@correo.com',FALSE,'usuario1','usuario1','ENABLED')
+COMMIT
+INSERT INTO TTASKS VALUES(10689,'','2017-03-26',NULL,NULL,'Prueba 1',NULL,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10690,'','2017-03-26',NULL,'2017-03-26','Prueba 2',1112,533)
+COMMIT
+INSERT INTO TTASKS VALUES(10691,'','2017-03-26',NULL,'2017-03-27','Prueba 3',1112,533)
+COMMIT
+DELETE FROM TTASKS WHERE ID=10629
+INSERT INTO TTASKS VALUES(10629,'','2017-03-26',NULL,'2017-04-01','Tarea Cambiada',1112,533)
+COMMIT
+DELETE FROM TTASKS WHERE ID=10639
+INSERT INTO TTASKS VALUES(10639,'','2017-03-26',NULL,'2017-03-26','Tarea Cambiada 2',NULL,533)
+COMMIT
+DELETE FROM TTASKS WHERE ID=10636
+INSERT INTO TTASKS VALUES(10636,'Tarea 8 prevista para los siguientes 6 d\u00edas a hoy','2017-03-26','2017-03-26','2017-04-01','Tarea 8',NULL,533)
+COMMIT
